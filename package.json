@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/JuneK3/TypeChain",
   "author": "junek3 <rlarudrms28@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
